@@ -1,0 +1,16 @@
+lista05=[]
+lista05.append(float(input('Ingrese el valor número 1: ')))
+lista05.append(float(input('Ingrese el valor número 2: ')))
+lista05.append(float(input('Ingrese el valor número 3: ')))
+lista05.append(float(input('Ingrese el valor número 4: ')))
+lista05.append(float(input('Ingrese el valor número 5: ')))
+lista05.append(float(input('Ingrese el valor número 6: ')))
+lista05.append(float(input('Ingrese el valor número 7: ')))
+lista05.append(float(input('Ingrese el valor número 8: ')))
+lista05.append(float(input('Ingrese el valor número 9: ')))
+lista05.append(float(input('Ingrese el valor número 10: ')))
+suma_num=lista05[0]+lista05[1]+lista05[2]+lista05[3]+lista05[4]+lista05[5]+lista05[6]+lista05[7]+lista05[8]+lista05[9]
+prom_num=suma_num/ len(lista05)
+print('La lista contiene los siguiente elementos {}.'.format(lista05))
+print('La suma de los 10 elementos ingresados es {}.'.format(suma_num))
+print('El promedio de los 10 números ingresados es {}.'.format(prom_num))
