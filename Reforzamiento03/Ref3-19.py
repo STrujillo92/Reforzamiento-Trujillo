@@ -1,0 +1,10 @@
+dicci3={}
+num1=float(input('Ingresa el primer número: '))
+num2=float(input('Ingresa el segundo número: '))
+num3=float(input('Ingresa el tercer número: '))
+num4=float(input('Ingresa el cuarto número: '))
+dicci3[num1]=pow(num1,3)
+dicci3[num2]=pow(num2,3)
+dicci3[num3]=pow(num3,3)
+dicci3[num4]=pow(num4,3)
+print('El diccionario de cubos final es el siguiente: {}.'.format(dicci3))
